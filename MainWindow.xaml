@@ -1,0 +1,23 @@
+﻿<Window x:Class="VVViceTrade.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VVViceTrade"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Icon="res/icon.ico" FontFamily="Comic Sans MS">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <TextBlock Background="#FFFFCC99"></TextBlock>
+        <TextBlock Grid.Row="2" Background="#FFFFCC99"></TextBlock>
+        <TextBlock Text="ООО Украшения" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"></TextBlock>
+        <Image Source="res/logo.png" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+        
+        <Frame Name="MainFrame" Grid.Row="1"></Frame>
+        
+    </Grid>
+</Window>

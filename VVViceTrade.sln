@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VVViceTrade", "VVViceTrade.csproj", "{7CBDEA0E-38CD-482D-9CA7-B1B922B75872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CBDEA0E-38CD-482D-9CA7-B1B922B75872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBDEA0E-38CD-482D-9CA7-B1B922B75872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBDEA0E-38CD-482D-9CA7-B1B922B75872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBDEA0E-38CD-482D-9CA7-B1B922B75872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD74D4A4-6CB6-4669-8053-3BA0C5E792F0}
+	EndGlobalSection
+EndGlobal
